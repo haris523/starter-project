@@ -31,6 +31,8 @@ You can use this template with this command: `npx react-native init project-name
 Use `npx react-native-rename "Travel App" -b com.junedomingo.travelapp` command in your project and change the name and the package to what you want it to be.
 After that use `pod install` from your iOS folder and run `watchman watch-del-all` from your project folder and also run `npm start --reset-cache`
 
+Also be sure to remove package-lock.json
+
 ### Android
 
 After the installation process android app should be ready to run.
