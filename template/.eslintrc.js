@@ -1,6 +1,5 @@
 module.exports = {
     root: true,
-    //extends: '@react-native-community',
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
@@ -13,7 +12,6 @@ module.exports = {
         require:true
     },
     rules: {
-        // '@typescript-eslint/rule-name': 'error',
         '@typescript-eslint/explicit-module-boundary-types':'off',
         'semi': 'off',
         '@typescript-eslint/semi': ['error', 'never', { 'beforeStatementContinuationChars':'never' }],
@@ -21,8 +19,6 @@ module.exports = {
         '@typescript-eslint/brace-style': ['error'],
         'comma-spacing': 'off',
         '@typescript-eslint/comma-spacing': ['error'],
-        // 'default-param-last': 'off',
-        // '@typescript-eslint/default-param-last': ['error'],
         'func-call-spacing': 'off',
         '@typescript-eslint/func-call-spacing': ['error'],
         'indent': 'off',
@@ -43,8 +39,6 @@ module.exports = {
         '@typescript-eslint/no-loop-func': ['error'],
         'no-loss-of-precision': 'off',
         '@typescript-eslint/no-loss-of-precision': ['error'],
-        // 'no-magic-numbers': 'off',
-        // '@typescript-eslint/no-magic-numbers': ['error'],
         'no-redeclare': 'off',
         '@typescript-eslint/no-redeclare': ['error'],
         'no-shadow': 'off',
@@ -72,61 +66,14 @@ module.exports = {
                 'allowSingleExtends': false
             }
         ],
-        //'@typescript-eslint/no-require-imports':['error'],
         '@typescript-eslint/prefer-for-of':['error'],
         '@typescript-eslint/prefer-optional-chain':['error'],
         '@typescript-eslint/type-annotation-spacing':['error', {
             after:true
         }],
-        //this rule should be on
         '@typescript-eslint/no-explicit-any':'off',
         '@typescript-eslint/default-param-last':'off',
         '@typescript-eslint/no-var-requires':'off',
         '@typescript-eslint/ban-ts-comment':'off'
-        // '@typescript-eslint/promise-function-async':['error']
-        // naming convention
-        // 'camelcase': 'off',
-        // '@typescript-eslint/naming-convention': [
-        //     'error',
-        //     {
-        //         'selector': 'default',
-        //         'format': ['camelCase']
-        //     },
-  
-        //     {
-        //         'selector': 'variable',
-        //         'format': ['camelCase', 'UPPER_CASE']
-        //     },
-        //     {
-        //         'selector': 'parameter',
-        //         'format': ['camelCase'],
-        //         'leadingUnderscore': 'forbid'
-        //     },
-  
-        //     {
-        //         'selector': 'memberLike',
-        //         'modifiers': ['private'],
-        //         'format': ['camelCase'],
-        //         'leadingUnderscore': 'forbid'
-        //     },
-  
-        //     {
-        //         'selector': 'typeLike',
-        //         'format': ['PascalCase']
-        //     }
-        // ]
-        // '@typescript-eslint/member-delimiter-style':['error', {
-        //     'multiline':{
-        //         'delimeter':'none',
-        //     },
-        //     'singleline':{
-        //         'delimeter':'none',
-        //     }
-        // }]
-        // 'space-before-function-paren': 'off',
-        // '@typescript-eslint/space-before-function-paren': ['error', 'always'],
-        // "no-empty-function": "off",
-        // "@typescript-eslint/no-empty-function": ["error"],
-        // '@typescript-eslint/member-delimiter-style':'none',
     },
 }

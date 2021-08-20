@@ -9,7 +9,7 @@ const App = () => {
     }, [])
     return (
         <View style={{ flex:1, alignItems:'center', justifyContent:'center', backgroundColor:'white', padding:40 }}>
-            <Text style={localStyles.text}>Test</Text>
+            <Text style={localStyles.text}>Starter project</Text>
         </View>
     )
 }
