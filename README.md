@@ -22,7 +22,7 @@ You can check all of the installed packages in template/package.json file, but i
 - svg
 - vector icons
 - react v17.0.2
-- react-native v0.65.0
+- react-native v0.65.1
 
 ## Usage instructions
 
