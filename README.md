@@ -27,8 +27,9 @@ You can check all of the installed packages in template/package.json file, but i
 ## Usage instructions
 
 You can use this template with this command: `npx react-native init project-name --template https://github.com/haris523/starter-project.git`
+
 Use `npx react-native-rename "Travel App" -b com.junedomingo.travelapp` command in your project and change the name and the package to what you want it to be.
-After that search all instances of starterproject inside your ide and remove them (mainly in package locks).
+After that use `pod install` from your iOS folder and run `watchman watch-del-all` from your project folder and also run `npm start --reset-cache`
 
 ### Android
 
