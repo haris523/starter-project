@@ -26,19 +26,18 @@ You can check all of the installed packages in template/package.json file, but i
 
 ## Usage instructions
 
-You can use this template with this command: `npx react-native init project-name --template https://github.com/haris523/starter-project.git`.
+You can use this template with this command: `npx react-native init project-name --template https://github.com/haris523/starter-project.git`
 
 ### Android
 
 After the installation process android app should be ready to run.
-You can run the app with the following command `npx react-native run-android`.
+You can run the app with the following command `npx react-native run-android`
 
 ### iOS
 
 For iOS there is an extra step. The vector icons included in the project need to be linked to file structure via xcode.
 After coming to the project directory, go one step further to the ios directory and use the `pod install` command.
-Open the project in xCode.
-Find the project inside the finder on your macbook and go into template/node_modules/react-native-vector-icons and drag the Fonts folder in your xcode on the same place the unusable Fonts folder is, press ok and then delete the red folder. Press product (8th option) at the top and then clean build folder.
+Open the project in xcode. Press product (8th option) at the top and then clean build folder.
 After those steps you should be able to run iOS app either through xcode or with the `npx react-native run-ios` command.
 
 ## Who is this for
