@@ -2,7 +2,7 @@
   "name": "starterproject",
   "version": "0.0.1",
   "description": "React Native Template",
-  "repository": "https://github.com/haris523/starter-project",
+  "repository": "https://github.com/haris523/starter-project.git",
   "author": "Haris Handzic <harishandzic27@yahoo.com>",
   "license": "MIT"
 }
