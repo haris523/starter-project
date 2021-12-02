@@ -28,8 +28,8 @@ You can check all of the installed packages in template/package.json file, but i
 
 You can use this template with this command: `npx react-native init project-name --template https://github.com/haris523/starter-project.git`
 
-Use `npx react-native-rename "Travel App" -b com.junedomingo.travelapp` command in your project and change the "Travel App" name to your project name and the 
-com.junedomingo.travelapp package to what you want it to be (com.yourappname).
+Use `npx react-native-rename "Travel App" -b com.junedomingo.travelapp` command in your project and change the `"Travel App"` name to your project name and the 
+`com.junedomingo.travelapp` package to what you want it to be (com.yourappname).
 After that use `pod install` from your iOS folder and run `watchman watch-del-all` from your project folder and also run `npm start --reset-cache`
 
 Also be sure to remove package-lock.json. Optionally also change Starter project on LaunchScreen.storyboard to something else.
