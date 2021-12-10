@@ -1,4 +1,4 @@
-# starter-project
+# REACT NATIVE starter-project
 
 This project is a template for initialising a new react-native project.
 After having to set up the common packages I use on every project many times, I decided to make a react-native template with preinstalled packages that I use.
@@ -22,7 +22,7 @@ You can check all of the installed packages in template/package.json file, but i
 - svg
 - vector icons
 - react v17.0.2
-- react-native v0.65.1
+- react-native v0.66.3
 
 ## Usage instructions
 
