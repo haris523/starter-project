@@ -60,6 +60,8 @@ Firstly you want to put all of your themes inside the themes object, and for eac
 
 To actually use those themes, import useTheme hook from the hooks folder. useTheme hook returns theme, themeName, and setTheme function. An example of this can be found inside `./src/screens/Home` folder.
 
+Another way to add themes is to just update the themes object inside the before mentioned file, and then run a script in your terminal with `npm run themeTypes`
+
 ## Who is this for
 
 This project template was originally made for my team and I at visiot (https://visiot.net), to make our lives easier.
