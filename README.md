@@ -18,7 +18,6 @@ You can check all of the installed packages in template/package.json file, but i
 - eslint (already setup with my custom rules)
 - prettier with my custom rules, that work together with eslint
 - react-navigation v6
-- splash screen
 - svg
 - vector icons
 - react
