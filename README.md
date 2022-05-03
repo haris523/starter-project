@@ -16,23 +16,19 @@ You can check all of the installed packages in template/package.json file, but i
 - redux
 - typescript
 - eslint (already setup with my custom rules)
-- .env
+- prettier with my custom rules, that work together with eslint
 - react-navigation v6
 - splash screen
 - svg
 - vector icons
-- react v17.0.2
-- react-native v0.66.3
+- react
+- react-native
 
 ## Usage instructions
 
 You can use this template with this command: `npx react-native init project-name --template https://github.com/haris523/starter-project.git`
 
-Use `npx react-native-rename "Travel App" -b com.junedomingo.travelapp` command in your project and change the `"Travel App"` name to your project name and the
-`com.junedomingo.travelapp` package to what you want it to be (com.yourappname).
-After that use `pod install` from your iOS folder and run `watchman watch-del-all` from your project folder and also run `npm start --reset-cache`
-
-Also be sure to remove package-lock.json. Optionally also change Starter project on LaunchScreen.storyboard to something else.
+That's it.
 
 ### Android
 
@@ -41,26 +37,17 @@ You can run the app with the following command `npx react-native run-android`
 
 ### iOS
 
-For iOS there is an extra step. The vector icons included in the project need to be linked to file structure via xcode.
-After coming to the project directory, go one step further to the ios directory and use the `pod install` command.
-Open the project in xcode. Press product (8th option) at the top and then clean build folder.
 After those steps you should be able to run iOS app either through xcode or with the `npx react-native run-ios` command.
 
 ## Additional info
 
 I'll write here about the additional configurations the user needs/should do to get the best possible experience from the template.
 
-### Themes
-
-App.js has been wrapped by ThemeProvider, which can have an initial value (this is mainly used to persist theme between closing and opening the app, and saving the theme under some key in async storage).
-
 #### Required steps for setting up themes
 
 Firstly you want to put all of your themes inside the themes object, and for each theme define the attributes with your theme configuration. Head to `./src/theme/themes.ts` file and set up your themes as it was given in the template. Follow the instructions in the comments.
 
 To actually use those themes, import useTheme hook from the hooks folder. useTheme hook returns theme, themeName, and setTheme function. An example of this can be found inside `./src/screens/Home` folder.
-
-Another way to add themes is to just update the themes object inside the before mentioned file, and then run a script in your terminal with `npm run themeTypes`
 
 ## Who is this for
 
