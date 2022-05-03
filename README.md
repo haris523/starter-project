@@ -41,7 +41,7 @@ After those steps you should be able to run iOS app either through xcode or with
 
 ## Additional info
 
-I'll write here about the additional configurations the user needs/should do to get the best possible experience from the template.
+Hermes is now enable by default
 
 #### Required steps for setting up themes
 
