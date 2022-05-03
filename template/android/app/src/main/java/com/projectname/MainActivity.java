@@ -16,11 +16,6 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "ProjectName";
   }
-  @Override
-protected void onCreate(Bundle savedInstanceState) {
-  SplashScreen.show(this); 
-  super.onCreate(null);
-}
   /**
    * Returns the instance of the {@link ReactActivityDelegate}. There the RootView is created and
    * you can specify the rendered you wish to use (Fabric or the older renderer).
