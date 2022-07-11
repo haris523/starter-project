@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { StyleSheet } from 'react-native'
 import { enableFreeze } from 'react-native-screens'
-import SplashScreen from 'react-native-splash-screen'
 import Home from '@screens/Home'
 import ThemeProvider from 'theme/ThemeContext'
 // This is for optimization, every screen that's not focused has a never ending promise
@@ -10,7 +8,7 @@ import ThemeProvider from 'theme/ThemeContext'
 enableFreeze(true)
 
 const App = () => {
-    const [initialTheme, setInitialTheme] = useState<string | null>(null)
+    const [initialTheme] = useState<string | null>(null)
     //good function to persist theme
 
     // const getTheme = async () => {
@@ -18,7 +16,6 @@ const App = () => {
     //   if (savedTheme) setInitialTheme(savedTheme);
     // };
     useEffect(() => {
-        SplashScreen.hide()
         // getTheme();
     }, [])
     return (
@@ -27,11 +24,5 @@ const App = () => {
         </ThemeProvider>
     )
 }
-
-const localStyles = StyleSheet.create({
-    text: {
-        textAlign: 'center'
-    }
-})
 
 export default App

@@ -3,12 +3,12 @@ import { DESTROY_SESSION } from '../actions/destroySessionActions'
 import loginReducer from './loginReducer'
 
 const appReducer = combineReducers({
-    login:loginReducer
+    login: loginReducer
 })
 
 const rootReducer = (state: any, action: any) => {
     if (action.type === DESTROY_SESSION) {
-        state = undefined 
+        state = undefined
     }
 
     return appReducer(state, action)

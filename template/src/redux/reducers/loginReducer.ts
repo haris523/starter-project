@@ -1,7 +1,7 @@
 import * as actions from 'redux/actions/loginActions'
 import { Action } from 'redux/interfaces'
 
-interface LoginState{
+interface LoginState {
     isSignout: boolean
     isLoading: boolean
     userToken: actions.UserToken
@@ -10,27 +10,27 @@ interface LoginState{
 const initialState: LoginState = {
     isLoading: true,
     isSignout: false,
-    userToken: null,
+    userToken: null
 }
 const loginReducer = (state = initialState, action: Action): LoginState => {
-    switch (action.type){
+    switch (action.type) {
         case actions.RESTORE_TOKEN:
             return {
                 ...state,
                 userToken: action.userToken,
-                isLoading: false,
+                isLoading: false
             }
         case actions.SIGN_IN:
             return {
                 ...state,
                 isSignout: false,
-                userToken: action.userToken,
+                userToken: action.userToken
             }
         case actions.SIGN_OUT:
             return {
                 ...state,
                 isSignout: true,
-                userToken: null,
+                userToken: null
             }
         default:
             return state

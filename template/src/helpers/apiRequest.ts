@@ -9,7 +9,6 @@ export default async (request: AxiosRequestConfig) => {
     if (Platform.OS === 'android') {
         request.data = request.data || {}
     }
-    console.log('URL: ', request.url)
     if (request.data && request.method === 'get') {
         // If data is set the get request won't be made
         request.data = null
@@ -19,6 +18,5 @@ export default async (request: AxiosRequestConfig) => {
     //   'X-Device': 'mobile',
     //   Authorization: `Bearer ${accessToken}`,
     // };
-    console.log('request:', request)
     return axios(request)
 }

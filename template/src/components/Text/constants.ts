@@ -9,11 +9,11 @@ const sizes = {
     b1: 15,
     b2: 14,
     b3: 12,
-    b4: 11,
+    b4: 11
 }
 const colors = {
     white: '#FFF',
-    black: '#000',
+    black: '#000'
 }
 const weights = {
     default: 'WorkSans-Regular',
@@ -21,7 +21,7 @@ const weights = {
     bold: 'WorkSans-Bold',
     light: 'WorkSans-Light',
     thin: 'WorkSans-Thin',
-    italic: 'WorkSans-Italic',
+    italic: 'WorkSans-Italic'
 }
 
 export { sizes, colors, weights }

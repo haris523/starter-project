@@ -1,6 +1,7 @@
 module.exports = {
     root: true,
     extends: [
+        '@react-native-community',
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'prettier'
@@ -26,7 +27,6 @@ module.exports = {
         'func-call-spacing': 'off',
         '@typescript-eslint/func-call-spacing': ['error'],
         indent: 'off',
-        '@typescript-eslint/indent': ['error'],
         'keyword-spacing': 'off',
         '@typescript-eslint/keyword-spacing': ['error'],
         'no-dupe-class-members': 'off',
@@ -86,6 +86,9 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/default-param-last': 'off',
         '@typescript-eslint/no-var-requires': 'off',
-        '@typescript-eslint/ban-ts-comment': 'off'
+        '@typescript-eslint/ban-ts-comment': 'off',
+        '@typescript-eslint/no-require-imports': 'warn',
+        '@typescript-eslint/no-for-in-array': 'error',
+        'no-console': 'error'
     }
 }

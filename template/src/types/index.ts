@@ -1,4 +1,8 @@
-import { NavigationProp, ParamListBase, RouteProp } from '@react-navigation/native'
+import {
+    NavigationProp,
+    ParamListBase,
+    RouteProp
+} from '@react-navigation/native'
 import React from 'react'
 
 //navigation types
