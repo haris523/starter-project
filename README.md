@@ -24,8 +24,8 @@ You can check all of the installed packages in template/package.json file, but i
 - react-native
 
 ## Usage instructions
-As soon as you connect the github repository to your project, run the command `npx husky install`.
-When that's done, you can use this template with this command: `npx react-native init project-name --template https://github.com/haris523/starter-project.git`
+
+You can use this template with this command: `npx react-native init project-name --template https://github.com/haris523/starter-project.git`. After creating the project, navigate to the project folder, run the command `npx husky install`.
 
 That's it.
 
